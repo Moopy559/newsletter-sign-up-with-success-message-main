@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --slate: hsl(234, 29%, 20%);
+  --charcoal: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+}
+
+body {
+  font-family: "Roboto", arial, helvetica, sans-serif;
+  background-color: var(--tomato);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
