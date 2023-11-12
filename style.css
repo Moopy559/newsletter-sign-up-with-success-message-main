@@ -7,15 +7,46 @@
   --grey: hsl(231, 7%, 60%);
 }
 
+* {
+  outline: solid 1px red;
+}
+
 body {
   font-family: "Roboto", arial, helvetica, sans-serif;
-  background-color: var(--tomato);
+  background-color: var(--charcoal);
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  width: 40%;
+  height: 300px;
+  padding: 20px;
+  display: grid;
+}
+
+ul {
+  padding-left: 21px;
+}
+
+li::marker {
+  content: url("assets/images/icon-list.svg");
+}
+
+li {
+  padding-left: 10px;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.hide {
+  display: none;
 }
