@@ -7,22 +7,30 @@
   --grey: hsl(231, 7%, 60%);
 }
 
-* {
+/* * {
   outline: solid 1px red;
-}
+} */
 
 body {
   font-family: "Roboto", arial, helvetica, sans-serif;
   background-color: var(--charcoal);
+  display: grid;
+  justify-content: center;
 }
 
 .container {
+  margin-top: 15vh;
   background-color: white;
   border-radius: 20px;
-  width: 40%;
-  height: 300px;
+  width: fit-content;
   padding: 20px;
   display: grid;
+  grid-template-columns: 300px 300px;
+  column-gap: 50px;
+}
+
+.container img {
+  width: 100%;
 }
 
 ul {
